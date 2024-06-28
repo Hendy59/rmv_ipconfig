@@ -35,3 +35,7 @@ sudo systemctl restart networking.service
 echo "Netzwerkkonfiguration abgeschlossen."
 echo "Neue IP-Adresse: $ip_address"
 echo "MAC-Adresse von eth0: $mac_address"
+
+sudo ip address 
+
+sudo shutdown -h +1
