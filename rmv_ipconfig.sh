@@ -39,3 +39,6 @@ echo "MAC-Adresse von eth0: $mac_address"
 sudo ip address 
 
 sudo shutdown -h +1
+
+cd .. && \
+rm -rf rmv_ipconfig
